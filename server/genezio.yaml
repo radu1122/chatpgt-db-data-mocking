@@ -6,6 +6,12 @@ sdk:
   options:
     runtime: browser
   path: ./../client/src/sdk
+scripts:
+  preBackendDeploy: npm install
+  preFrontendDeploy: cd ../client && npm install --legacy-peer-deps && npm run build
+frontend:
+  path: ./../client/build
+  subdomain: coffee-entire-lamprey
 classes:
   - path: GptCaller.js
     type: jsonrpc
