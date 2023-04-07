@@ -1,0 +1,12 @@
+name: chatgpt-app-backend
+region: eu-central-1
+cloudProvider: aws
+sdk:
+  language: js
+  options:
+    runtime: browser
+  path: ./../client/src/sdk
+classes:
+  - path: GptCaller.js
+    type: jsonrpc
+    methods: []
