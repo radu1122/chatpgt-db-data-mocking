@@ -14,7 +14,8 @@
 # What is this project?
 
 I created a prompt generator using the OpenAI(ChatGPT) API. The prompt generator is a tool that generates mock data from DB Schema. The tool is a web application that can be used to generate mock data from DB Schema.
-###Tools used:
+
+### Tools used:
 
 - [genezio](https://github.com/genez-io/genezio) - the newest way to deploy and write servlerless backend code.
 - [OpenAI](https://openai.com/) - the world's most powerful AI.
